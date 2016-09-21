@@ -7,7 +7,7 @@
     <style>
       img, video {
         display:block;
-        max-width: 100%
+        max-width: 50%
       }
     </style>
   </head>
@@ -24,13 +24,13 @@
       </nav>
     </header>
     <section class="jollof pic">
-        <h2>Jollof Rice</h2>
-        <figure>
-          <img src="../img/jollof.jpg" alt="jollof rice" />
-          <figcaption>A picture of jollof rice served with chicken with some mixed vegetables!</figcaption>
-          <cite>Picture taken from www.naijasphere.com</cite>
-        </figure>  
-      </section>
+      <h2>Jollof Rice</h2>
+      <figure class="photo">
+        <img src="../img/jollof.jpg" alt="jollof rice" />
+        <figcaption>A picture of jollof rice served with chicken with some mixed vegetables!</figcaption>
+      </figure> 
+      <cite>Picture taken from www.naijasphere.com</cite> 
+    </section>
     <section class="jollof info">
       <h2>Background About the Dish</h2>
       <p>Jollof rice is a very popular dish in many West African countries. It is known to be very delicious
@@ -51,7 +51,7 @@
             <li>4 pieces of red ball pepper</li>
             <li>2 pieces of habanero pepper</li>
             <li>1 big onion</li>
-            <li>ginger/garlic (optional)</li>
+            <li>Ginger/garlic (optional)</li>
             <li>Shrimps</li>
             <li>Ground chicken or turkey</li>
             <li>Mixed vegetables (optional)</li>
@@ -110,15 +110,18 @@
     </section>
     <section>
       <h3>Instructions available in audio</h3>
-      <figure>
-        <audio src="audio/recipe.mp4.m4a" type="audio/mpeg" />
+      <figure class="audio">
+        <audio src="../audio/recipe.mp4.m4a" type="audio/mpeg" controls="controls">
+          <p>Download the audio in 
+          <a href="recipe.mp4.m4a" type="audio/mpeg">audio file</a> format
+          </p>
         </audio>
       </figure>
     </section>
     <footer>
-      <h3>Site Design by Oreoluwa Olotu.
+      <p>Site Design by Oreoluwa Olotu.
       Copyright &copy; 2016 Oreoluwa. All rights reserved
-      </h3>
+      </p>
     </footer>
   </body>
 </html>
